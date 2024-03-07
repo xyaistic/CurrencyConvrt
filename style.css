@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1579532536935-619928decd08?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    background-color: rgba(224, 224, 224, 0.952);
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 2rem;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+form{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form input,select,button{
+    width:5vw;
+    border: none;
+    border-radius: 20px;
+    height: 2rem;
+    padding: 0 1rem 0 1rem;
+    margin: 20px;
+    background-color: rgb(249, 249, 249);
+}
+.dropdown{
+    /* background-color: pink; */
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.select-container{
+    /* background-color: #fff; */
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin: 10px;
+}
+.select-container img{
+    /* background-color: #fff; */
+    width: 50px;
+}
+h2{
+    font-size: 30px;
+    color: tomato;
+}
